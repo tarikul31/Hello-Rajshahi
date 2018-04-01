@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rajshahi_arts"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFD7D7DA"
+    tools:context="com.example.tarik.hello_rajshahi.RajshahiTransport">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:textColor="#08059b"
+    android:textSize="25dp"
+    android:textStyle="bold"
+    android:text="Arts And Culture "
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="10dp"
+    />
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="440dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/cultureraj"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#01021d"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="01dp"
+            android:layout_marginRight="01dp"
+            android:layout_marginBottom="30dp"
+            android:text="Rajshahi is known for its educational, literary and artistic heritage.It is knownfor its characteristic sweetmeats, not to be found anywhere else in the country. These special preparations include Roshkodom, Khaja, Raghobshahi and Kachagolla (Natore is specially known for this particular sweetmeat). Along with neighbouring Chapai Nababganj, Rajshahi is the home of the regions best mangoes and lichis. Rajshahi is also the location of Barendra Museum which is known for its collection of local sculpture and other artefacts dating from medieval times, and of Rajshahi silk, the finest silk produced in Bangladesh. Rajshahi also has Rajshahi College which is 142 years old. It also has some important structures that has made by the British like The T Dam"
+            />
+
+/>
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

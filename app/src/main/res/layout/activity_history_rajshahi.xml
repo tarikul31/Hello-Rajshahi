@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_history_rajshahi"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:layout_gravity="center"
+android:background="#fddadadc"
+tools:context="com.example.tarik.hello_rajshahi.HistoryRajshahi">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="History Of Rajshahi"
+    android:textSize="30dp"
+    android:textColor="#fd1227ca"
+    android:textStyle="bold"
+    android:layout_marginBottom="8dp"
+    />
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/rajj"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fd0a0909"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="30dp"
+            android:text="Rajshahi district was a part of the Pundra region of ancient Bengal. The capital of Vijay Sen, the king who led military operations in Sri Lanka and Southeast Asia was located 9 miles (14 km) to the west of Rajshahi town. In medieval times, the region came to be known as Rampur Boalia. The origin of the present name of  Rajshahi  is debated among scholars. Most say that it takes its name from Hindu Kings and zamindars (or Rajas) as Raj and the persianised Shahi; both of which means Royal or Kingdom.[5]The administrative district was established in 1772 and the municipal corporation in 1876. Rajshahi was dominated by various Maharajas, Rajas and Zamindars.[6]
+It was made a city corporation in 1991. During the British Raj, it was also known as Beuleah and was the administrative headquarters of Rajshahi district in Eastern Bengal and Assam. It was originally chosen as a commercial factory for the silk trade, which was being officially encouraged by the agricultural department of that time. The town contained a government college, and an industrial school for sericulture. Most of the public buildings were severely damaged by the earthquake of 12 June 1897. Throughout much of the early part of the twentieth century there was a daily steamer service on the Ganges which connected it to rail-heads that led to the then provincial capital of Calcutta as well as other cities in the province of Bengal. Along with all of Bangladesh, Rajshahi witnessed both great atrocities by the Pakistan army and heroic struggles by the freedom fighters during the liberation war in 1971. The largest mass grave in Bangladesh is located in Rajshahi University, which was used as an army camp during the war. On the other hand, one of the great battles of the war took place near Rajshahi. Captain Mohiuddin Jahangir, who died in battle, was awarded the highest honour (Bir Shrestho) by the Bangladesh government after the war.
+"
+            />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
+

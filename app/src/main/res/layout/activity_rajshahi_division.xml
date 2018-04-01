@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_rajshahi_division"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:background="@drawable/raj"
+tools:context="com.example.tarik.hello_rajshahi.RajshahiDivision">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="45dp"
+    android:text="Rajshahi Division"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:textColor="#020b50"
+    />
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="65dp">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:text="Rajshahi"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#33379e"
+            android:layout_marginTop="10dp"
+
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:text="Natore"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#33379e"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:text="Naogon"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#33379e"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:text="Nowabgonj"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#33379e"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:text="Pabna"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#33379e"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:text="Jhenidah"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#33379e"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:text="Bogra"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#33379e"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:text="Joypurhat"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#33379e"
+            />
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

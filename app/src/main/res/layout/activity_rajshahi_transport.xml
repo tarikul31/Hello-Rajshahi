@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rajshahi_transport"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFD7D7DA"
+    tools:context="com.example.tarik.hello_rajshahi.RajshahiTransport">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#08059b"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Transportation of Rajshahi"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/bsraj"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#01021d"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="01dp"
+                android:layout_marginRight="01dp"
+                android:layout_marginBottom="30dp"
+                android:text="
+Rajshahi Division Buss List:
+
+Hanif Travels , Desh Travels , Shyamoly Travels , Shohag Travels , ATCL Travels , BRTC Travels ,
+National Travels , Soudia Travels,Starline  ctc.
+" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/strajshahi"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#01021d"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="01dp"
+                android:layout_marginRight="01dp"
+                android:layout_marginBottom="20dp"
+                android:text="Rajshahi Division Train List :
+
+Silkcity Express , Antonogor Express , Mohanogor Express , LalSobuj Train,
+Sonar Bangla Train etc." />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/rajair"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="20dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/rajairroute"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="1dp"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

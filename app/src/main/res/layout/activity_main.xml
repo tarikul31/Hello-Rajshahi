@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:background="@drawable/abc"
+tools:context="com.example.tarik.hello_rajshahi.MainActivity">
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:text="About Rajshahi"
+            android:layout_height="wrap_content"
+            android:id="@+id/button8"
+            android:textColor="#0d44c4"
+            android:textSize="22sp"
+            android:layout_width="240dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="14dp"
+            android:background="@android:drawable/button_onoff_indicator_on"
+            android:onClick="aboutrajshahi"
+            />
+
+        <Button
+            android:text="History Rajshahi"
+            android:layout_height="wrap_content"
+            android:id="@+id/button10"
+            android:textColor="#FF0D44C4"
+            android:textSize="22sp"
+            android:layout_width="240dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="14dp"
+            android:background="@android:drawable/button_onoff_indicator_on"
+            android:onClick="historyrajshahi"
+
+            />
+
+        <Button
+            android:text="Districts List"
+            android:layout_height="wrap_content"
+            android:id="@+id/button9"
+            android:textColor="#FF0D44C4"
+            android:textSize="22sp"
+            android:layout_width="240dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="14dp"
+            android:background="@android:drawable/button_onoff_indicator_on"
+            android:onClick="rajshahidivision"
+            />
+
+        <Button
+            android:text="Trasportation"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1d"
+            android:textColor="#FF0D44C4"
+            android:textSize="22sp"
+            android:layout_width="240dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="14dp"
+            android:background="@android:drawable/button_onoff_indicator_on"
+            android:onClick="rjshahitransport"
+            />
+
+        <Button
+            android:text="Arts and Culture"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttona"
+            android:textColor="#FF0D44C4"
+            android:textSize="22sp"
+            android:layout_width="240dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="14dp"
+            android:background="@android:drawable/button_onoff_indicator_on"
+            android:onClick="rajshahiarts"
+            />
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
